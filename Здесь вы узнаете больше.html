@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      background: linear-gradient(-45deg, #ff6a00, #ee0979, #2c3e50, #00c6ff);
+      background-size: 400% 400%;
+      animation: gradientBG 12s ease infinite;
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: white;
+    }
+
+    @keyframes gradientBG {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    header {
+      margin-top: 60px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 80px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 6px;
+      text-shadow: 0 0 20px rgba(255,255,255,0.9),
+                   0 0 40px rgba(255,0,200,0.8),
+                   0 0 60px rgba(0,200,255,0.7);
+      animation: glow 3s infinite alternate;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #fff, 0 0 20px #ff00de, 0 0 40px #00faff; }
+      to   { text-shadow: 0 0 20px #fff, 0 0 40px #00faff, 0 0 60px #ff00de; }
+    }
+
+    footer {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    footer a {
+      display: block;
+      margin: 12px 0;
+      font-size: 20px;
+      text-decoration: none;
+      color: #fff;
+      background: rgba(255,255,255,0.1);
+      padding: 12px 25px;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+
+    footer a:hover {
+      background: rgba(255,255,255,0.3);
+      transform: scale(1.08);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Привет ти хочеш скачати мой проект у меня скоро получат видео на ютубе как скачати мой проект</h1>
+  </header>
+
+  <footer>
+    <a href="https://github.com/olusyamazurenco-gif/Telegram-" target="_blank">🔗 GitHub</a>
+    <a href="https://www.youtube.com/@spoynermine" target="_blank">🔗 YouTube</a>
+    <a href="https://ely.by" target="_blank">🔗 Ely.by как хочете</a>
+  </footer>
+</body>
+  </html>
